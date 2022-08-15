@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1c906f1c.js",
+    "main.css": "/static/css/main.38c8b537.css",
+    "main.js": "/static/js/main.ebf965e2.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/television.png": "/static/media/television.86a2744146a9f20e150b.png",
+    "static/media/skimage.png": "/static/media/skimage.2357fd3019e76c2cc352.png",
+    "static/media/yoki.png": "/static/media/yoki.86b7879ed9f268c844dc.png",
+    "static/media/empoweru.png": "/static/media/empoweru.6d9071d2b25d8d4eacdd.png",
+    "static/media/sets.png": "/static/media/sets.31cc533791835a561879.png",
+    "static/media/profilepic.jpeg": "/static/media/profilepic.ed7c75bc03650c4015e4.jpeg",
+    "static/media/brown.png": "/static/media/brown.9310426e33cf419db6a6.png",
+    "static/media/fab.png": "/static/media/fab.1f5f045ef510a9076d2a.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1c906f1c.js.map": "/static/js/main.1c906f1c.js.map",
+    "main.38c8b537.css.map": "/static/css/main.38c8b537.css.map",
+    "main.ebf965e2.js.map": "/static/js/main.ebf965e2.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1c906f1c.js"
+    "static/css/main.38c8b537.css",
+    "static/js/main.ebf965e2.js"
   ]
 }
