@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import AboutPage from "./components/AboutPage"
+import ExperiencePage from "./components/ExperiencePage"
+import ProjectsPage from "./components/ProjectsPage"
 
-function App() {
+import './App.css';
+import { Link } from "react-scroll";
+import Footer from "./components/Footer";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="nav">
+        <h2>Ian Acosta</h2>
+        <nav className="nav__container__actions">
+          <ul className="navlist">
+            <li>
+              <Link activeClass="active" smooth spy to="about">
+                ABOUT
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="experience">
+                EXPERIENCE
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="projects">
+                PROJECTS
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <section id="about"> <AboutPage /></section>
+      <section id="experience"><ExperiencePage/></section>
+      <section id="projects"><ProjectsPage/></section>
+      <Footer/>
     </div>
   );
 }
-
-export default App;
