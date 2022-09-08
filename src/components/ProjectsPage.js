@@ -5,6 +5,7 @@ import television from '../imgs/television.png'
 import yoki from '../imgs/yoki.png'
 import Project from '../components/Project';
 import brown from '../imgs/brown.png';
+import maps from '../imgs/maps.png'
 
 function ProjectsPage(props) {
     return(
@@ -16,14 +17,14 @@ function ProjectsPage(props) {
           <Project
             image={skimage}
             title="Food Classification"
-            description="Implemented an autoencoder to improve grainy image inputs taken in dark-lit environments."
+            description="Constructed a convolutional neural network (CNN) to classify a subset of food types in the Food-101 data set. Implemented an autoencoder to reduce the noise of input images taken in dark environments. Utilized an input optimizer to showcase the CNN's targeted features."
             tech="Python, TensorFlow, Computer Vision"
             github="https://github.com/meera-kurup/skimage">
           </Project>
           <Project
-            image={brown}
+            image={maps}
             title="Maps Modeling"
-            description="Modeled the basic functionalities of Google Maps to generate all possible routes between two distinct locations. Implemented bus and train schedules, fares. Implemented a visualizer using JavaScript. Created in collaboration with two other developers."
+            description="Modeled the basic functionalities of Google Maps to generate all possible routes between two distinct locations. Implemented bus and train schedules, and fares. Implemented a visualizer using JavaScript. Created in collaboration with other developers."
             tech="Forge (Alloy), JavaScript">
           </Project>
           <Project
@@ -38,14 +39,14 @@ function ProjectsPage(props) {
             title="Remote Hand Controller"
             description="Created an application that controls a music player with various hand signs displayed from a live camera feed.
                         Trained a convolutional neural network to recognize and classify these hand signs.
-                        Utilized OpenCV cv2 to extract one's hand from its background and modify each frame to appear similar to training data. Created in collaboration with three other developers."
+                        Utilized OpenCV cv2 to extract one's hand from its background and modify each frame to appear similar to training data. Created in collaboration with other developers."
             tech="Python, TensorFlow, Computer Vision"
             github="https://github.com/sophiatu2/television">
           </Project>
           <Project
             image={yoki}
             title="Yoki"
-            description="Developed a web application that connects students with similar interests. Implemented user authentication and password encryption. Created in collaboration with three other developers."
+            description="Developed a web application that connects students with similar interests. Implemented user authentication and password encryption. Created in collaboration with other developers."
             tech="Java, Apache Spark, JavaScript, SQL, HTML/CSS, Web Development">
           </Project>
           </div>

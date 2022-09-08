@@ -12,8 +12,8 @@ function AboutPage(props) {
             <img src={profilepic}></img>
           </div>
           <div className='about-desc'>
-            <h1 className='page-title'>About Me</h1>
-            <p>Hello! I am a rising senior at Brown University studying computer science with pathways in visual computing and artificial intelligence/machine learning. However, I am also interested in data science and full-stack development!</p>
+            <h1 className='page-title'>Hey, I'm Ian!</h1>
+            <p>I am a senior at Brown University studying computer science with pathways in visual computing and artificial intelligence/machine learning. I also have interests in data science and full-stack development!</p>
             <div className='icon-wrapper'>
               <a href="https://github.com/IanAcosta1">
                 <FontAwesomeIcon icon={faGithub} size={'2x'} className="icons"/>

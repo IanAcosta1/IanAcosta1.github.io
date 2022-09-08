@@ -15,9 +15,8 @@ function ExperiencePage(props) {
           image={empoweru}
           company="EmpowerU"
           position="Software Engineer"
-          date="June 2021 - Present"
-          description="Designed the entire website’s wireframes, and incorporated modifications as suggested by team members. Assisted with the design of mobile application wireframes to follow conventional UI and UX features. Incorporated the landing page and bottom navigation bar on the mobile application."
-          link="http://empoweru.tech/">
+          date="June 2021 - May 2022"
+          description="Designed the entire website’s wireframes, and incorporated modifications as suggested by team members. Assisted with the design of mobile application wireframes to follow conventional UI and UX features. Incorporated the landing page and bottom navigation bar on the mobile application.">
         </Experience>
          <Experience
           image={pointz}
