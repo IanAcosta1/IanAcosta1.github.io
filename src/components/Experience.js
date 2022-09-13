@@ -4,7 +4,7 @@ function Experience(props) {
     return(
         <div className='card-wrapper'>
             <div className='experience-img'>
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <img src={props.image}></img>
                 </a>
             </div>

@@ -6,6 +6,7 @@ import yoki from '../imgs/yoki.png'
 import Project from '../components/Project';
 import brown from '../imgs/brown.png';
 import maps from '../imgs/maps.png'
+import ai from '../imgs/ai.png'
 
 function ProjectsPage(props) {
     return(
@@ -14,6 +15,13 @@ function ProjectsPage(props) {
           <h2>Projects</h2>
         </div>
         <div className='project-list'>
+        <Project
+            image={ai}
+            title="Artificial Intelligence Course Website"
+            description="Designed and developed a website for Brown University's Artificial Intelligence, themed after Game of Thrones. The course site displays course logistics that is updated as new lectures and assignments are released."
+            tech="ReactJS"
+            link="https://csci1410-2022.vercel.app/">
+          </Project>
           <Project
             image={skimage}
             title="Food Classification"
